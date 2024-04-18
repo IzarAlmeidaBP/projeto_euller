@@ -1,0 +1,49 @@
+/* Cadastro.module.css */
+/* Cadastro.module.css */
+
+.centeredContent {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  h2 {
+    color: rgb(10, 168, 235); /* Adiciona a cor vermelha ao h2 */
+  }
+  
+  form {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Ajuste na margem superior para os campos de entrada */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px; /* Adiciona uma margem superior para os campos de entrada */
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Adiciona uma borda cinza mais sutil */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao input */
+  }
+  
+  h1 {
+    margin-bottom: 170px;
+  }
+  
+  button {
+    background-color: #16213E;
+    color: #fff;
+    padding: 16px 60px; /* Reduzi o valor para tornar o botão mais arredondado */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+  }
+  
+  button:hover {
+    background-color: #059fd6;
+  }

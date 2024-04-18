@@ -1,0 +1,163 @@
+.container {
+  width: 88%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.apresentacao {
+  width: 80%;
+  text-align: center;
+}
+
+.container p {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.container span {
+  color: var(--red);
+  font-weight: bold;
+  margin-bottom: 4em;
+}
+
+.login-form {
+  width: 40%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form .form-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-form .btn-green {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.login-form .btn-green:hover {
+  background-color: var(--red);
+}
+
+.login-form .btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.login-form .btn-blue:hover {
+  background-color: var(--dark-blue);
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+/* Estilo para os botões */
+.login-form button,
+.login-form .btn-cadastro {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-form .btn-green,
+.login-form .btn-cadastro {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.login-form .btn-green:hover,
+.login-form .btn-cadastro:hover {
+  background-color: var(--red);
+}
+
+.login-form .btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.login-form .btn-blue:hover {
+  background-color: var(--dark-blue);
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+/* Estilo para os botões */
+.login-form button,
+.login-form .btn-cadastro {
+  width: calc(
+    100% - 5px
+  ); /* 50% da largura com uma pequena margem entre eles */
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-form .btn-green,
+.login-form .btn-cadastro {
+  background-color: var(--primary);
+  color: var(--white);
+  display: inline-block; /* Garante que ambos os botões ocupem a largura desejada */
+  text-align: center; /* Centraliza o texto dentro dos botões */
+  text-decoration: none; /* Remove a sublinhado padrão dos links */
+}
+
+/* Adicione isso ao seu arquivo CSS */
+.btn-red {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-red:hover {
+  background-color: var(--red);
+}

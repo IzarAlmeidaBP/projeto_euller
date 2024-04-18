@@ -1,0 +1,51 @@
+.login-form button,
+.login-form .btn-cadastro {
+  width: calc(50% - 5px);
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-form .btn-green,
+.login-form .btn-cadastro {
+  background-color: var(--primary);
+  color: var(--white);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login-form .btn-green:hover,
+.login-form .btn-cadastro:hover {
+  background-color: var(--red);
+}
+
+.login-form .btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.login-form .btn-blue:hover {
+  background-color: var(--dark-blue);
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.error-container {
+  background-color: #ffeeee;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #ff0000;
+  margin: 0;
+}

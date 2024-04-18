@@ -1,0 +1,33 @@
+/* Importe a fonte "Outfit" de uma CDN ou do seu próprio projeto, substituindo o link abaixo. */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif; /* Aplica a fonte 'Outfit' ao corpo do documento. */
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 15px; /* Ajustei a altura para 80px para dar mais destaque ao rodapé. */
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 0.9rem; /* 20px - Aumentei o tamanho da fonte para maior legibilidade. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Estilo adicional para um link no rodapé. */
+.footer a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ddd;
+}

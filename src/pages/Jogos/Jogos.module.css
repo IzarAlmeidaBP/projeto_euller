@@ -1,0 +1,86 @@
+/* Jogos.module.css */
+
+/* Jogos.module.css */
+
+/* Adicione estas regras CSS no seu arquivo Jogos.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 477vh;
+  margin: 30px; /* Ajuste a margem conforme necessário */
+}
+
+.title {
+  margin-bottom: 80px; /* Ajuste a margem abaixo do título conforme necessário */
+  margin-top: -700px; /* Adicione margem acima do título */
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Altere para space-around para distribuir uniformemente com espaços ao redor */
+  gap: 20px; /* Ajuste o espaçamento entre os cartões conforme necessário */
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  height: 250px; /* Defina uma altura fixa para os cartões */
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura fixa */
+  flex: 1; /* Permitir que os cartões ocupem espaço igualmente */
+  max-width: 300px; /* Ajuste a largura máxima conforme necessário */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.header {
+  background-color: #f5f5f5;
+  padding: 20px; /* Ajuste o padding conforme necessário */
+  border-radius: 8px 8px 0 0;
+}
+
+.image {
+  width: 100%;
+  height: 120px; /* Ajuste a altura da imagem conforme necessário */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.description {
+  color: #666;
+}
+
+.footer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  color: #333;
+}
+
+.button {
+  background-color: #16213E;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #059fd6;
+}
+
+

@@ -1,0 +1,37 @@
+/* Importe a fonte "Outfit" de uma CDN ou do seu próprio projeto, substituindo o link abaixo. */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif; /* Aplica a fonte 'Outfit' ao corpo do documento. */
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 60px; /* Ajustei a altura para 60px para dar um pouco mais de destaque. */
+    background-color: var(--primary);
+    color: #fff; /* Ajustei a cor do texto para branco para melhor contraste. */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra sutil. */
+}
+
+/* Adicione um estilo para os links dentro do cabeçalho. */
+.header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Adiciona uma transição suave na cor. */
+}
+
+/* Altera a cor do link ao passar o mouse sobre ele. */
+.header a:hover {
+    color: var(--red);
+
+
+    
+}
+

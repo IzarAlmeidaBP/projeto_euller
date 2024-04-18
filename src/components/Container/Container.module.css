@@ -1,0 +1,9 @@
+/* Container.module.css */
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Para centralizar e distribuir os cards uniformemente */
+    align-items: center; /* Para centralizar verticalmente em relação à imagem */
+    margin-top: 20px; /* Adicionando margem acima do contêiner */
+  }
+  
